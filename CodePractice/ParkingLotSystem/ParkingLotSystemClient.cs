@@ -2,7 +2,7 @@
 
 namespace CodePractice.ParkingLotSystem
 {
-    internal class Client
+    internal class ParkingLotSystemClient
     {       
         internal void Process()
         {
@@ -30,8 +30,6 @@ namespace CodePractice.ParkingLotSystem
             parkingLot.Unpark(car);
 
             parkingLot.DisplayAvailability();
-
         }
-
     }
 }
